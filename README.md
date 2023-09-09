@@ -2,5 +2,5 @@
 This is a working template that contains:
 - makefile
 - test file
-- github actios
-- requirenments file
+- github actions
+- req file
