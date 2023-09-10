@@ -33,7 +33,4 @@ if __name__ == "__main__":
     # Print dataset info
     print_ds_info(my_data)
     # generate graph
-    
-
-
-
+    data_vis(data)
