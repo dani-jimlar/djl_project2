@@ -16,7 +16,7 @@ def print_ds_info(data):
  
 def data_vis(data):
     """this fun generates a simple plot of the data set"""
-    sns.barplot(data=data,  x="descrip",y="sexostt")
+    sns.barplot(data=data,  x="descrip",y="sexostt", ci=None)
     plt.xlabel("Age group")
     plt.ylabel("Number of inmmates")
     plt.title("Number of inmates by age group in Mexican prisons in 2021")
