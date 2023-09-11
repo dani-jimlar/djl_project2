@@ -24,7 +24,5 @@ jobs:
       - name: format
         run: make format
 
-commands:
-  - pyhton main.py
     
   
