@@ -29,7 +29,7 @@ if __name__ == "__main__":
     #dir=os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'source'))
     #sys.path.append(dir)
     # Read the CSV file
-    my_data = pd.read_csv("source/imp_edos.csv", encoding="ISO-8859-1")
+    my_data = pd.read_csv("source/imp_edos_2.csv", encoding="ISO-8859-1")
     # Print dataset info
     print_ds_info(my_data)
     # generate graph
