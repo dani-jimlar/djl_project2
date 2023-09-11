@@ -16,6 +16,9 @@ lint:
 	#ruff linting is 10-100X faster than pylint
 	#ruff check *.py mylib/*.py
 
+plot:
+	python3 source/main.py
+
 #container-lint:
 #	docker run --rm -i hadolint/hadolint < Dockerfile
 

@@ -23,6 +23,8 @@ jobs:
       #  run: make test
       - name: format
         run: make format
+      - name:  main
+        run: make plot  
 
     
   
