@@ -3,6 +3,7 @@ all: install test format lint
 install:
 	python3 -m pip install --upgrade pip 
 	python3 -m 	pip install -r requirements.txt
+	python -m pip install -
 
 test:
 	python -m pytest -vv --cov=main --cov=mylib test_*.py
