@@ -12,10 +12,10 @@ def is_valid_png(file_path):
     except (IOError, SyntaxError):
         return False
 
-# Example usage:
+
 file_path = "djl_project2/source/bar_plot.png"
 if is_valid_png(file_path):
-    print("The image is  valid PNG image.")
+    print("The image is valid PNG image.")
 else:
     print("The image is not valid PNG image.")
 
