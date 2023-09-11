@@ -25,8 +25,6 @@ def data_vis(data):
     plt.setp(labels, rotation=90)
     plt.savefig('bar_plot.png', dpi=300, bbox_inches='tight')
 
-if __name__ == "__main__":
-
     # Read the CSV file
     my_data = pd.read_csv("djl_project2/source/m2s2p20_cnije2022.csv", encoding="ISO-8859-1")
 
